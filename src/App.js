@@ -1,11 +1,16 @@
+import Heading from "./components/Heading";
+import Searchbar from "./components/Searchbar";
+import Results from "./components/Results";
+import Nominations from "./components/Nominations";
+
 
 function App() {
   return (
     <>
-   <div>Heading</div>
-   <div>search bar</div>
-   <div>results</div>
-   <div>nominations</div>
+   <Heading />
+   <Searchbar />
+   <Results />
+   <Nominations />
    </>
   );
 }
